@@ -1,0 +1,23 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "typed-countries",
+      "devDependencies": {
+        "country-query": "^0.3.0",
+        "typescript": "^2.0.10",
+      },
+    },
+  },
+  "packages": {
+    "country-query": ["country-query@0.3.0", "", { "dependencies": { "lodash": "^3.5.0", "lodash-deep": "^1.6.0", "world-countries": "^1.7.8" } }, "sha512-aTQ0dMXB2ChZWPUpcA9K0XIbCjr3l9nXI7iCjrwuwVlhxqyQwJQ/dCQbd/xDtTfliMFVxJDe681yzt6sfgEsLQ=="],
+
+    "lodash": ["lodash@3.10.1", "", {}, "sha512-9mDDwqVIma6OZX79ZlDACZl8sBm0TEnkf99zV3iMA4GzkIT/9hiqP5mY0HoT1iNLCrKc/R1HByV+yJfRWVJryQ=="],
+
+    "lodash-deep": ["lodash-deep@1.6.0", "", { "dependencies": { "lodash": ">=2.4.1" } }, "sha512-KXP3vvDWAiZ3wDEcS9Hzgrk/hyaz9A2XfNsZULNmbNQwVG9eShQr4kPE70RNcxF+XSTDK9HmfSjg71BYVXBNog=="],
+
+    "typescript": ["typescript@2.9.2", "", { "bin": { "tsc": "./bin/tsc", "tsserver": "./bin/tsserver" } }, "sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w=="],
+
+    "world-countries": ["world-countries@1.8.1", "", {}, "sha512-BXYJF8t9StISMWBlJNtMDcqQjnhuIfHzK3S5yFiiGTsImYUBTBTQafmIh53q3KvA2ubCHXXFihrSgXeWaczQcw=="],
+  }
+}
