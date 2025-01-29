@@ -9,8 +9,11 @@ Install from the NPM registry with NPM itself, or with [Yarn](https://github.com
 # NPM:
 npm install typed-countries
 
-# or Yarn:
+# Yarn:
 yarn add typed-countries
+
+# Bun:
+bun add typed-countries
 ```
 
 ## Importing
